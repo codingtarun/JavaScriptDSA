@@ -8,11 +8,14 @@
  *
  */
 
-export const count = (str,char) => str.split(char).length-1;
+export const count = (str,char) => str.split(char).length - 1;
+// split the input 'str' based on 'char',
+// if there are `n` occurrences,
+// then string will be split into `n+1` array items.
 
 /**
  *
  * The split() method in JavaScript is used to split a string into an array based on a specified separator.
- *
+ * => returns an array with string separated from the given `char`
  *
  */
